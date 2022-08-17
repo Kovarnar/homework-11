@@ -1,0 +1,7 @@
+.section__list--nature {
+    .section-list__item {
+        &--small, &--portrait{
+            order: 0;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+.section__list {
+    display: grid;
+    justify-content: center;
+    row-gap: 15px;
+    grid-template-columns:  1fr;
+    grid-auto-rows: 1fr;
+}

@@ -1,0 +1,28 @@
+.item__button {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: $litegray;
+    cursor: pointer;
+    overflow: hidden;
+    opacity: 0;
+    &:hover {
+        background-color: $superlitegray;
+        opacity: 1;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+        fill: $gray;
+    }
+    &--like{
+        align-self: start;
+        justify-self: start;
+    }
+    &--load{
+        align-self: start;
+        justify-self: end;
+    }
+}

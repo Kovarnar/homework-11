@@ -1,0 +1,27 @@
+.section-list__item {
+    &--small{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+    &--portrait {
+        grid-row: span 2;
+        grid-column: span 1;
+    }
+    &--landscape {
+        grid-column: span 2;
+        grid-row: span 1;
+        padding-bottom: 49%;
+    }
+    &--big{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+}
+.section-item__info {
+    .item__name {
+        font-size: rem(20px);
+    }
+    .item__date {
+        font-size: rem(20px);
+    }
+}

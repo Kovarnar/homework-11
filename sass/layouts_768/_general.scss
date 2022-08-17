@@ -1,0 +1,9 @@
+main {
+  padding: 60px 0;
+}
+.section:not(:last-child) {
+  margin-bottom: 60px;
+}
+.section__title {
+  margin-bottom: 40px;
+}
